@@ -1,7 +1,3 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 import os
 import time
 import datetime
@@ -200,7 +196,7 @@ async def send_vid(bot: Client, m: Message,cc,filename,thumb,name,prog):
     await prog.delete (True)
     reply = await m.reply_text(f"**Uploading ...** - `{name}`")
     try:
-        if thumb == "no":
+        if thumb == "No":
             thumbnail = f"{filename}.jpg"
         else:
             thumbnail = thumb
