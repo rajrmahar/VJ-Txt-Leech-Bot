@@ -196,7 +196,7 @@ async def send_vid(bot: Client, m: Message,cc,filename,thumb,name,prog):
     await prog.delete (True)
     reply = await m.reply_text(f"**Uploading ...** - `{name}`")
     try:
-        if thumb == "No":
+        if thumb == "no":
             thumbnail = f"{filename}.jpg"
         else:
             thumbnail = thumb
